@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px){
+    h1, h2, h3, h4, h6 {
+        font-size: 16px;
+      }
+      
+      .heart {
+        width: 250px;
+        margin: 30px;
+      }
+      
+      .beat {
+        transform: scale(1.1); 
+        transition: .4s ease-in-out;/* Увеличьте размер сердца во время "отстукивания" */
+      }
+      
+      .main-sign {
+        font-size: 24px;
+        padding-bottom: 20px;
+      }
+      
+      .socials {
+        gap: 20px;
+      }
+      
+      .socials-img {
+        width: 35px;
+      }
+      
+      .socials-img:hover {
+        transform: scale(1.1);
+      }
+      
+      h6 {
+        font-size: 12px;
+        margin-bottom: 140px;
+      }
+}

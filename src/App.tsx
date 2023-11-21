@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
-import heart from './assets/gradient_heart.jpg'
+import heart from './assets/serdce.png'
 import tg from './assets//tele.png'
 import vk from './assets/vk-logo.svg'
 import inst from './assets/instagram.svg'
+import './media.css'
 import './App.css'
 
 function App() {
